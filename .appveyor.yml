@@ -34,8 +34,7 @@ test_script:
   - ps: .\.appveyor-script.ps1
   
 artifacts:
-  - path: **\libegit2.dll
+  - path: src\libegit2.dll
     name: libegit2.dll
-
   - path: libgit.el
     name: libgit.el
